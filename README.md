@@ -56,18 +56,20 @@ pip install -r requirements.txt
 python app.py
 ```
 
+---
+
 ## 📈 Future Enhancements
 
-- 🔹 Integrate a **Transformer-based NLP model** (like BERT or DistilBERT) for more accurate, context-aware emotion classification.  
-- 🔹 Add **Voice Emotion Detection** using audio feature extraction (`librosa`) and CNN models.  
-- 🔹 Implement **Facial Emotion Recognition** with `OpenCV` and deep learning.  
-- 🔹 Build a **Mood Tracking Dashboard** to visualize emotion patterns over time.  
-- 🔹 Introduce a **Memory/Personalization system** — the AI learns the user’s mood trends.  
-- 🔹 Integrate **Generative AI (LLM)** for dynamic, empathetic, and conversational responses.  
-- 🔹 Add **Multi-language support** to detect emotions in multiple regional languages.  
-- 🔹 Deploy MoodMate as a **mobile or web app** for public use.  
-- 🔹 Incorporate **privacy & ethical safeguards** for user data protection.  
-- 🔹 Enable **API endpoints** for external integration (chatbots, HR tools, wellness apps).  
+- Integrate a **Transformer-based NLP model** (like BERT or DistilBERT) for more accurate, context-aware emotion classification.  
+- Add **Voice Emotion Detection** using audio feature extraction (`librosa`) and CNN models.  
+- Implement **Facial Emotion Recognition** with `OpenCV` and deep learning.  
+- Build a **Mood Tracking Dashboard** to visualize emotion patterns over time.  
+- Introduce a **Memory/Personalization system** — the AI learns the user’s mood trends.  
+- Integrate **Generative AI (LLM)** for dynamic, empathetic, and conversational responses.  
+- Add **Multi-language support** to detect emotions in multiple regional languages.  
+- Deploy MoodMate as a **mobile or web app** for public use.  
+- Incorporate **privacy & ethical safeguards** for user data protection.  
+- Enable **API endpoints** for external integration (chatbots, HR tools, wellness apps).  
 
 ---
 
@@ -80,4 +82,5 @@ python app.py
 **Year:** 2025  
 
 > *“Your emotions matter — and MoodMate is here to understand them.” 💙*
+
 
