@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MoodMate - AI Emotion Agent</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 MoodMate</h1>
+        <p>Check your emotional state through AI</p>
+        <form action="/analyze" method="post">
+            <textarea name="user_text" placeholder="How are you feeling today?" required></textarea>
+            <button type="submit">Analyze Emotion</button>
+        </form>
+    </div>
+</body>
+</html>

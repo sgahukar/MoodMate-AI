@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MoodMate Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 MoodMate Results</h1>
+        <p><strong>Your Text:</strong> {{ text }}</p>
+        <p><strong>Detected Emotion:</strong> {{ emotion }}</p>
+        <p><strong>MoodMate Says:</strong> {{ response }}</p>
+        <a href="/">← Analyze Again</a>
+    </div>
+</body>
+</html>
